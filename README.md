@@ -24,7 +24,6 @@
 
 ---
 
-Ethical Hacking & Cybersecurity | Batch B082
 
 | **Password cracker Name <br>(Cybersecurity Professional)** | Mosotho Thatho                                                              |
 | ---------------------------------------------------------- | --------------------------------------------------------------------------- |
