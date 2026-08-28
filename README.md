@@ -2,24 +2,27 @@
 
 # CYBERSECURITY PASSWORD CRACKING REPORT
 
-**Cracking PDF files with John & Johnny The Ripper (JTR) and Networkwalks Tools**
+**PDF Password Recovery using John the Ripper, Johnny and Networkwalks Tools**
+
 </div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Skill-Cybersecurity-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/Cracking-Passwordx%20v7.2-0070C0?style=flat-square&labelColor=000000" />
-  <img src="https://img.shields.io/badge/John%20Linux-v2026.2-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tools-Networkwalks-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/Network-10.0.0.0%2F24-238F89?style=flat-square&labelColor=000000" />
-  <img src="https://img.shields.io/badge/Penetration%20Testing-C00000?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Skill-Virtualization-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/GitHub-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Password%20Cracking-PDFs-0070C0?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Tools-John%20the%20Ripper-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Interface-Johnny-238F89?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Networkwalks-Tools-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/PDF%20Files-Password%20Protected-404040?style=flat-square&labelColor=C00000" />
+  <img src="https://img.shields.io/badge/Wordlists-Custom%20%26%20Built--in-0070C0?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/Kali%20Linux-404040?style=flat-square&labelColor=C00000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />
-  <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/GitHub-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Networkwalks-B082-C00000?style=flat-square" />
   <img src="https://img.shields.io/badge/Mosotho%20Thatho-C00000?style=flat-square" />
+
 </p>
 
+---
 
 Ethical Hacking & Cybersecurity | Batch B082
 
@@ -30,23 +33,26 @@ Ethical Hacking & Cybersecurity | Batch B082
 | **Modules completed**                                      | Password Cracking with JTR<br><br>Password Cracking with Networkwalks Tools |
 | **Clients/Target**                                         | 3 PDF locked files                                                          |
 
+---
 # **Introduction**
 
 The practical of this week focused on password recovery from three password protected PDF files. I worked with two different approaches: John the Ripper through its Johnny graphical interface, and the Networkwalks Hash Calculator and Password Cracker.
 
 The exercise gave me an opportunity to work with hashes, wordlists and password recovery tools in a controlled training environment. I also learned that different tools and wordlists can produce different results, so being able to troubleshoot and try an appropriate alternative is an important part of the process.
 
+---
 # **Objectives**
 
 - Install and configure John the Ripper and Johnny on a Windows PC.
 - Extract the hash values from the three locked PDF files.
-- Use Johnny to load the saved hashes and perform the assigned password-recovery attacks.
+- Use Johnny to load the saved hashes and perform the assigned password cracking attacks.
 - Use the Networkwalks Hash Calculator to generate hash values for the PDF files.
 - Use the Networkwalks Password Cracker with its built-in wordlist.
 - Use a custom wordlist when the built-in wordlist did not produce a match.
 - Verify each recovered password by opening the corresponding PDF file.
 - Document the process and results with screenshots.
 
+---
 # **Tools used**
 
 | **Tools/Resources**           | **purpose**                                                                    |
@@ -57,9 +63,10 @@ The exercise gave me an opportunity to work with hashes, wordlists and password 
 | Networkwalks Hash Calculator  | Generated hash values from the PDF files.                                      |
 | Networkwalks Password Cracker | Attempted password recovery using available wordlists.                         |
 | Online Hash Crack             | Used during the first method to obtain the PDF hash values.                    |
-| Locked PDF files              | Training files used for the password-recovery exercise.                        |
+| Locked PDF files              | Training files used for the password cracking exercise.                        |
 | Custom Wordlist               | Used when the built-in Networkwalks wordlist did not find a matching password. |
 
+---
 # **Method 1: Password Cracking with John & Johnny the Ripper**
 
 ## **Installation and Configuration**
@@ -84,18 +91,18 @@ Finding hash of the document I uploaded the files in the online hash crack websi
 
 I then opened each of the saved hash files in Johnny and started the assigned attack. Once a password was recovered, I recorded the result and used it to test whether the corresponding PDF could be opened.
 
-PDF File 1 – Recovered Password: For PDF file 1:
+PDF File 1 – Cracked Password: For PDF file 1:
 <img width="1050" height="603" alt="image" src="https://github.com/user-attachments/assets/a351094a-ce3f-4eed-8fa8-453ed036054a" />
 
 
-PDF File 2 – Recovered Password: For PDF file 2:
+PDF File 2 – Cracked Password: For PDF file 2:
 <img width="1048" height="569" alt="image" src="https://github.com/user-attachments/assets/020b37f2-2441-4e5a-8e86-a6f0ccda99d3" />
 
 
-PDF File 3 – Recovered Password: For PDF file 3:
+PDF File 3 – Cracked Password: For PDF file 3:
 <img width="1020" height="609" alt="image" src="https://github.com/user-attachments/assets/dfd1d02f-af75-408e-a04b-fbb41b64b599" />
 
-
+---
 # **Method 2: Password Cracking with Networkwalks Tools**
 
 For the second method, I used the Networkwalks Hash Calculator at and Password Cracker. The process was different from the first method because the hash was generated directly through the Networkwalks tool and then tested against the available wordlists.
@@ -110,7 +117,7 @@ The screenshot below shows the networkwalks hash calculator tool and I uploaded 
 
 ## **Testing the Built-in Wordlist**
 
-I first tried the built-in wordlist provided by the Networkwalks Password Cracker. For the first PDF, the built-in list did not contain a matching password. This was a useful result because it showed that a password-recovery attempt can fail simply because the required password is not present in the wordlist being tested.
+I first tried the built-in wordlist provided by the Networkwalks Password Cracker. For the first PDF, the built-in list did not contain a matching password. This was a useful result because it showed that a password recovery attempt can fail simply because the required password is not present in the wordlist being tested.
 
 Networkwalks password cracker could not find a matching password on its build-in wordlist, this is shown in the screenshot below:
 <img width="1030" height="657" alt="image" src="https://github.com/user-attachments/assets/0b764432-6e90-48c7-a5e5-5de37082ce41" />
@@ -133,10 +140,10 @@ PDF File 2 – Built-in Wordlist Result: The second pdf file:
 PDF File 3 – Built-in Wordlist Result: Third pdf file
 <img width="940" height="483" alt="image" src="https://github.com/user-attachments/assets/b1b47d63-70ae-44bc-ac5f-0b12dfec1b10" />
 
-
+---
 # **Results and Verification**
 
-Both methods were successful. I was able to recover passwords for all three training PDF files. I did not consider a password recovered until I had used it to open the corresponding PDF successfully.
+Both methods were successful. I was able to crack passwords for all three training PDF files. I did not consider a password cracked until I had used it to open the corresponding PDF successfully.
 
 PDF File 1 – Opened Successfully: For PDF file 1:
 <img width="940" height="546" alt="image" src="https://github.com/user-attachments/assets/6405e58a-6c98-43bb-88e5-0e1c5bfb22c2" />
@@ -149,7 +156,7 @@ PDF File 2 – Opened Successfully: For PDF file 2:
 PDF File 3 – Opened Successfully: For PDF file 3:
 <img width="1054" height="611" alt="image" src="https://github.com/user-attachments/assets/fbda5065-2838-41dd-84ea-27b1354bcc58" />
 
-
+---
 # **Challenges Encountered and How I Solved Them**
 
 The main challenge I encountered was with the Networkwalks Password Cracker. When I first used its built-in wordlist for the first PDF, the tool could not find a matching password.
@@ -158,6 +165,7 @@ Instead of stopping there, I checked the available options and found that the to
 
 This was a useful part of the exercise because it showed me that the success of a wordlist-based password recovery attempt depends heavily on the contents of the wordlist.
 
+---
 # **What I Learned**
 
 - I learned how password-protected PDF files can be represented by hash values for password recovery testing.
@@ -168,10 +176,12 @@ This was a useful part of the exercise because it showed me that the success of 
 - I learned the importance of verifying a recovered password by actually opening the protected file.
 - I also gained more confidence in troubleshooting when the expected result was not obtained on the first attempt.
 
+---
 # **Ethical and Responsible Use**
 
 This practical was completed as part of the Networkwalks Ethical Hacking & Cybersecurity training program using the three locked PDF files provided for the exercise. The password-recovery techniques described in this report were used for authorized educational purposes only. These techniques should only be applied to files or systems where the user has permission to perform the testing.
 
+---
 # **Conclusion**
 
 This week's practical gave me hands-on experience with PDF password recovery using two different approaches. I successfully worked with John the Ripper and Johnny, as well as the Networkwalks Hash Calculator and Password Cracker.
@@ -179,3 +189,5 @@ This week's practical gave me hands-on experience with PDF password recovery usi
 The most valuable part for me was troubleshooting the first Networkwalks Password Cracker attempt. When the built-in wordlist did not contain the required password, I used a custom wordlist and was able to obtain a match.
 
 In the end, all three PDF passwords were recovered using the assigned methods and each password was verified by successfully opening its corresponding PDF. Overall, the exercise improved my understanding of hashes, wordlists, password-recovery tools and practical cybersecurity troubleshooting.
+
+---
